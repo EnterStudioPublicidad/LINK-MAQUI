@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#00182c" />
+<meta name="description" content="MAQUINGENIEROS. Fácil y práctico. Nuestras redes, contacto y ubicación." />
+<title>MAQUINGENIEROS | Fácil y práctico</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<style>
+:root{color-scheme:dark;--green:#a0d818;--muted:#aebbc9}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:#020810;color:#f6f8fb;font-family:"Montserrat",sans-serif;isolation:isolate}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(#02081055,#02081099),url("fondo-ondas.svg") center top / cover no-repeat}
+main{width:min(calc(100% - 40px),500px);margin:48px auto 32px;padding:12px 0 24px}
+.profile{text-align:center}
+.logo{display:block;width:132px;height:132px;margin:0 auto 24px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 5px #ffffff05,0 14px 36px #0006}
+h1{margin:0;font-size:clamp(22px,5.5vw,30px);font-weight:800;letter-spacing:-1px}h1 span{color:var(--green)}
+.tagline{color:#d6e1cd;font-size:10px;letter-spacing:4px;font-weight:500;margin:12px 0 20px}
+.intro{max-width:320px;margin:0 auto 28px;color:var(--muted);font-size:13px;line-height:1.8}
+.socials{display:grid;gap:12px}
+.social-link{display:flex;align-items:center;gap:15px;min-height:58px;padding:15px 20px;border:1px solid #c1ef5c40;border-radius:13px;background:linear-gradient(110deg,#b1e72c,#98cf17);box-shadow:0 4px 12px #0002;color:#152004;text-decoration:none;font-size:14px;font-weight:700;transition:filter .2s,transform .2s}
+.social-link>i:first-child{font-size:22px;width:26px;text-align:center}.social-link .arrow{margin-left:auto;font-size:12px;opacity:.6}
+.social-link:hover{filter:brightness(1.1);transform:translateY(-2px)}a:focus-visible{outline:3px solid #e5f7ba;outline-offset:5px}
+.location{margin-top:30px;padding-top:28px;border-top:1px solid #ffffff12}
+.section-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.eyebrow{margin:0 0 8px;color:var(--green);font-size:9px;font-weight:700;letter-spacing:2px}
+h2{margin:0;font-size:clamp(18px,4.7vw,22px);letter-spacing:-.6px}
+.location-icon{font-size:24px;color:var(--green)}
+.location-address{color:var(--muted);font-size:12px;line-height:1.8;margin:0 0 16px}
+.location-map{overflow:hidden;border:1px solid #ffffff24;border-radius:16px;background:#0b1723}
+.location-map iframe{display:block;width:100%;height:320px;border:0;color-scheme:light}
+.map-link{display:flex;align-items:center;justify-content:center;gap:10px;min-height:44px;margin-top:12px;color:var(--green);font-size:12px;line-height:1.6;text-decoration:none}.map-link:hover{text-decoration:underline}
+footer{display:flex;flex-direction:column;align-items:center;gap:28px;width:100%;text-align:center;color:#8e9bad;margin-top:40px;font-size:9px;letter-spacing:1.6px;line-height:1.8}
+footer>p{margin:0;width:100%}
+.footer__promo{width:100%;margin:0;padding:28px 8px 12px;border-top:1px solid #ffffff1f;letter-spacing:normal}.footer__promo>.icon--lg{color:var(--green);font-size:25px}.footer__promo h3{color:#f6f8fb;font-size:19px;margin:14px 0 10px}.footer__promo p{max-width:320px;margin:0 auto 20px;color:#b9c7d7;font-size:13px;line-height:1.8}.btn--outline{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 24px;border:1px solid var(--green);border-radius:12px;color:var(--green);font-size:13px;font-weight:600;text-decoration:none;background:#02081080}.btn--outline:hover{background:var(--green);color:#152004}.btn--outline .icon{font-size:19px}
+@media(max-width:600px){main{margin:24px auto;width:calc(100% - 40px);padding:12px 0 22px}.logo{width:120px;height:120px;margin-bottom:22px}.intro{font-size:12px}.social-link{min-height:56px}.location{margin-top:26px;padding-top:24px}}
+@media(prefers-reduced-motion:reduce){.social-link{transition:none}}
+</style>
+</head>
+<body>
+<main>
+<header class="profile">
+<img class="logo" src="logooo.avif" width="170" height="170" alt="Logo de MAQUINGENIEROS" />
+<h1>MAQUI<span>NGENIEROS</span></h1>
+<p class="tagline">FÁCIL Y PRÁCTICO</p>
+<p class="intro">Conecta con nosotros y descubre nuestras novedades.</p>
+</header>
+<nav class="socials" aria-label="Redes sociales y contacto">
+<a class="social-link" data-social="whatsapp" href="https://wa.me/51922500072" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i>WhatsApp<i class="fa-solid fa-arrow-up-right-from-square arrow" aria-hidden="true"></i></a>
+<a class="social-link" data-social="tiktok" href="https://www.tiktok.com/@convocatoriamin" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok" aria-hidden="true"></i>TikTok<i class="fa-solid fa-arrow-up-right-from-square arrow" aria-hidden="true"></i></a>
+<a class="social-link" data-social="facebook" href="https://www.facebook.com/maquingenieros" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i>Facebook<i class="fa-solid fa-arrow-up-right-from-square arrow" aria-hidden="true"></i></a>
+<a class="social-link" data-social="youtube" href="https://www.youtube.com/@MAQUIINGENIEROS" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube" aria-hidden="true"></i>YouTube<i class="fa-solid fa-arrow-up-right-from-square arrow" aria-hidden="true"></i></a>
+<a class="social-link" data-social="instagram" href="https://www.instagram.com/_maquingenieros/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" aria-hidden="true"></i>Instagram<i class="fa-solid fa-arrow-up-right-from-square arrow" aria-hidden="true"></i></a>
+<a class="social-link" data-social="ubicacion" href="https://maps.app.goo.gl/9SJqUEkoSnHdGU2h9" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot" aria-hidden="true"></i>Ubicación<i class="fa-solid fa-arrow-up-right-from-square arrow" aria-hidden="true"></i></a>
+</nav>
+<section class="location" aria-labelledby="location-title">
+<div class="section-heading"><div><p class="eyebrow">VEN A VISITARNOS</p><h2 id="location-title">Nuestra ubicación</h2></div><i class="fa-solid fa-location-dot location-icon" aria-hidden="true"></i></div>
+<p class="location-address">Cerro Colorado, Arequipa, Perú.</p>
+<div class="location-map">
+<iframe title="Mapa de ubicación de MAQUIINGENIEROS en Cerro Colorado, Arequipa" src="https://www.google.com/maps?q=-16.3474743%2C-71.5821549&amp;z=17&amp;output=embed" width="500" height="320" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+</div>
+<a class="map-link" href="https://maps.app.goo.gl/9SJqUEkoSnHdGU2h9" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-diamond-turn-right" aria-hidden="true"></i> Cómo llegar en Google Maps <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+</section>
+<footer>
+<p>MAQUINGENIEROS · FÁCIL Y PRÁCTICO</p>
+<div class="footer__promo reveal">
+<i class="fa-solid fa-heart icon icon--lg" aria-hidden="true"></i>
+<h3>¿Te gusta esta página?</h3>
+<p>Te creo una página como esta para tu negocio, a tu medida.</p>
+<a href="https://wa.me/51951589749?text=Hola%2C%20quiero%20una%20p%C3%A1gina%20como%20la%20de%20MAQUINGENIEROS%20para%20mi%20negocio." data-wa-referido class="btn btn--outline" target="_blank" rel="noopener noreferrer">
+<i class="fa-brands fa-whatsapp icon" aria-hidden="true"></i> Quiero la mía
+</a>
+</div>
+</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+# Recursos antiguos que no utiliza esta página
+CARTA-ONLINE-DON-CARLOS.pdf
+donCarlos-blanco.webp
+fondo.webp
+
+# Archivos locales
+.DS_Store
+Thumbs.db
+.env
+.env.*
+node_modules/
